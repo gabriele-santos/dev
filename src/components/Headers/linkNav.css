@@ -1,0 +1,42 @@
+/* #navigation-links {
+  padding: 70px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.link {
+  padding-top: 10px;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 10px;
+  text-align: right;
+} */
+#navigation-links {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  /* background-color: #241f35;  */
+}
+
+.icon-cloud img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+.links {
+  display: flex;
+  margin-right: 50px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
