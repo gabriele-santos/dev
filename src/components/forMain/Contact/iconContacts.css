@@ -1,0 +1,18 @@
+.icon-to-contact {
+    padding-top: 80px; 
+  }
+
+  #contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .link-contact {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFF;
+  }
+
+  .link-github {
+    margin-right: 20px;
+  }
