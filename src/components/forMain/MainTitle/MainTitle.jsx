@@ -23,7 +23,7 @@ function MainTitle() {
             <p>Meu foco é criar sites intuitivos, responsivos e esteticamente atraentes!</p>
           </div>
         </div>
-        <div>
+        <div className="image-header">
           <img id="image-programmer" src={coding} alt="drawing of a programmer" />
         </div>
       </div>
