@@ -1,0 +1,43 @@
+.container-skills {
+    text-align: center;
+}
+
+.centered-title-container {
+    margin-bottom: 20px;
+}
+
+.centered-title {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.container-no-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+}
+
+.div-image-skills {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#image-skills {
+    width: 500px;
+}
+
+.container-text-skills {
+    margin-top: 20px;
+    margin-left: 20px;
+}
