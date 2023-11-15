@@ -1,25 +1,36 @@
 header {
-  padding: 20px;
+  padding-bottom: 90px;
+  padding-top: 20px;
   font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  /* background-color: #241f35;  */
+  background-image: url('../../assets/wave.svg');
+  background-size: cover;
 }
 
 .icon-cloud img {
   width: 50px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .links {
   display: flex;
-  padding-right: 50px;
+  align-items: center;
+  padding-right: 40px;
 }
 
 .link-header {
   text-decoration: none;
+  font-weight: bold;
   padding: 10px;
   margin: 10px;
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.svg-nav {
+  margin-right: 3px;
 }
