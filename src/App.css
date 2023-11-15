@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   color: #ffff;
+  font-family: 'DM Serif Display', serif;
 }
+
 body {
-  background-image: url('./assets/wave-haikei.svg');
-  background-size: cover;
-  /* background-color: #18122B; */
   font-size: 26px;
+  background-color: #18122B;
+}
+
+#about, .projects{
+  background-color: #241f35;
 }
