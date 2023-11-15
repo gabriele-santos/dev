@@ -1,2 +1,2 @@
 # dev
-Meu portfólio web
+Meu portfólio web criado com React.js
