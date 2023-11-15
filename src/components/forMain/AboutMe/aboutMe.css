@@ -1,0 +1,29 @@
+#about {
+  padding: 30px; 
+}
+
+.text-and-image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+}
+
+.my-image {
+  flex: 1; 
+  margin-right: 50px; 
+  margin-left: 20px;
+}
+
+.container-text {
+  flex: 2; 
+  text-align: justify;
+  margin-right: 60px;
+}
+
+.title-paragraph {
+  margin-bottom: 70px;
+  text-align: center; 
+  font-size: 35px;
+}
+
+
