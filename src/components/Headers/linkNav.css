@@ -34,3 +34,7 @@ header {
 .svg-nav {
   margin-right: 3px;
 }
+
+.link-pages:hover {
+  color: #F15A59;
+}

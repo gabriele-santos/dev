@@ -15,19 +15,19 @@ function LinkNav() {
       <div className="links">
         <Link activeClass="active" to="about" spy smooth offset={-200} className="link-header">
           <img className="svg-nav" src={person} style={{ width: "20px" }} alt="icon person" />
-          <span>Sobre</span>
+          <span className="link-pages">Sobre</span>
         </Link>
         <Link activeClass="active" to="contact" spy smooth offset={-200} className="link-header">
           <img className="svg-nav" src={contact} style={{ width: "20px" }} alt="icon contact" />
-          <span> Contato</span>
+          <span className="link-pages"> Contato</span>
         </Link>
         <Link activeClass="active" to="skills" spy smooth offset={-200} className="link-header">
           <img className="svg-nav" src={ability} style={{ width: "20px" }} alt="icon ability" />
-          <span>Habilidades</span>
+          <span className="link-pages">Habilidades</span>
         </Link>
         <Link activeClass="active" to="projects" spy smooth offset={-200} className="link-header">
           <img className="svg-nav" src={project} style={{ width: "20px" }} alt="icon project" />
-          <span>Projetos</span>
+          <span className="link-pages">Projetos</span>
         </Link>
       </div>
     </header>
