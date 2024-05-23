@@ -13,19 +13,7 @@
 
 .container-no-title {
     display: flex;
-    flex-direction: column;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#skills {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 400px;
+    flex-direction: row;
 }
 
 .div-image-skills {
@@ -34,10 +22,26 @@
 }
 
 #image-skills {
-    width: 500px;
+    width: 450px;
 }
 
-.container-text-skills {
-    margin-top: 20px;
-    margin-left: 20px;
+.swiper-container {
+    height: 15vh;
+    margin-top: 200px;
+    width: 50%; 
+}
+
+.swiper-item {
+    font-size: 60px;
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: #F15A59;
+    opacity: 1;
+    padding: 2px;
+    border-radius: 2;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    color: #F15A59;
 }
