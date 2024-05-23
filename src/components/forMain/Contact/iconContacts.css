@@ -16,3 +16,11 @@
   .link-github {
     margin-right: 20px;
   }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .link-contact:hover {
+    color: #F15A59;
+  }
