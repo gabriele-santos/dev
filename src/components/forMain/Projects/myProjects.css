@@ -36,6 +36,12 @@
 #link-portfolio {
     text-decoration: none;
     color: #F15A59;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#link-portfolio:hover {
+    font-size: 25px;
 }
 
 .text-projects {
@@ -51,7 +57,10 @@ hr {
   
 
 .all-projects {
-    margin-top: 20px;
     cursor: pointer;
+}
+
+.all-projects, .list-projects {
+    margin-top: 25px;
 }
 
