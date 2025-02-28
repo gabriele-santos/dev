@@ -21,7 +21,7 @@ function LinkNav() {
           <img className="svg-nav" src={contact} style={{ width: "20px" }} alt="icon contact" />
           <span className="link-pages"> Contato</span>
         </Link>
-        <Link activeClass="active" to="skills" spy smooth offset={-200} className="link-header">
+        <Link activeClass="active" to="container-skills" spy smooth offset={-200} className="link-header">
           <img className="svg-nav" src={ability} style={{ width: "20px" }} alt="icon ability" />
           <span className="link-pages">Habilidades</span>
         </Link>
